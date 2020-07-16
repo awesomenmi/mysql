@@ -1,6 +1,7 @@
 # MySQL
+---
 
-Вывод команды SHOW TABLES на master:
+Вывод команды **SHOW TABLES** на *master*:
 ```
 [vagrant@master ~]$ mysql -uroot -p'uBW94U&8^079' -D 'bet'
 mysql: [Warning] Using a password on the command line interface can be insecure.
@@ -36,8 +37,7 @@ mysql> SHOW TABLES;
 
 ```
 
-
-Вывод команды SHOW TABLES на slave:
+Вывод команды **SHOW TABLES** на *slave*:
 ```
 [vagrant@slave ~]$ mysql -uroot -p'uBW94U&8^079' -D 'bet'
 mysql: [Warning] Using a password on the command line interface can be insecure.
