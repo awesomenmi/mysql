@@ -1,5 +1,4 @@
 # MySQL
----
 
 Вывод команды **SHOW TABLES** на *master*:
 ```
